@@ -1,0 +1,14 @@
+{
+    "privacy_data": ["permission","user_input","device_information","others"],
+    "permission": ["sensor","contact_information","storage","camera","microphone","bluetooth","security_credentials","location","app_list"],
+    "sensor": ["heart_rate", "exercise_data", "sleep_data"],
+    "device_information": ["device_identifier","device_state","general_location"],
+    "others": ["cookie","browsing_history","app_activity","consuming_history"],
+    "contact_information": ["telephone_listing", "message", "call_records"],
+    "user_input": ["demographic_information","health_status","user_credentials","user_preference","online_activity"],
+    "demographic_information": ["telephone_number", "gender", "name", "email_address", "address","payment_infomation", "date_of_birth", "family_members", "national_identification_number", "sexual_orientation", "employment", "education"],
+    "health_status": ["body_weight", "body_height","blood_pressure"],
+    "user_credentials": ["account", "password"],
+    "device_identifier": ["android_id", "imei", "mac_address", "mobile_ad_identifier", "imsi", "ssid","iccid","app_id"],
+    "device_state": ["carrier","screen","language","model","network_connection_type","OS","architecture","battery","memory","accelerometer","root","emulator","volume"]
+}
