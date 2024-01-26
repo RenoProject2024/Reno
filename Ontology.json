@@ -2,7 +2,7 @@
     "privacy_data": ["w/_runtime_permission","user_input","w/o_runtime_permission","others"],
     "w/_runtime_permission": ["body_sensor","contact_information","storage","camera","microphone","location"],
     "body_sensor": ["heart_rate", "exercise_data", "sleep_data"],
-    "w/o_runtime_permission": ["device_identifier","device_state","general_location","app_list","basic_sensor"],
+    "w/o_runtime_permission": ["device_identifier","device_state","general_location","app_list","basic_sensor","security_credentials"],
     "others": ["cookie","browsing_history","app_activity","consuming_history"],
     "contact_information": ["telephone_listing", "message", "call_records"],
     "user_input": ["demographic_information","health_status","user_credentials","user_preference","online_activity"],
