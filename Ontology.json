@@ -1,8 +1,8 @@
 {
-    "privacy_data": ["permission","user_input","device_information","others"],
-    "permission": ["sensor","contact_information","storage","camera","microphone","bluetooth","security_credentials","location","app_list"],
-    "sensor": ["heart_rate", "exercise_data", "sleep_data"],
-    "device_information": ["device_identifier","device_state","general_location"],
+    "privacy_data": ["w/_runtime_permission","user_input","w/o_runtime_permission","others"],
+    "w/_runtime_permission": ["body_sensor","contact_information","storage","camera","microphone","location"],
+    "body_sensor": ["heart_rate", "exercise_data", "sleep_data"],
+    "w/o_runtime_permission": ["device_identifier","device_state","general_location","app_list","basic_sensor"],
     "others": ["cookie","browsing_history","app_activity","consuming_history"],
     "contact_information": ["telephone_listing", "message", "call_records"],
     "user_input": ["demographic_information","health_status","user_credentials","user_preference","online_activity"],
@@ -10,5 +10,6 @@
     "health_status": ["body_weight", "body_height","blood_pressure"],
     "user_credentials": ["account", "password"],
     "device_identifier": ["android_id", "imei", "mac_address", "mobile_ad_identifier", "imsi", "ssid","iccid","app_id"],
-    "device_state": ["carrier","screen","language","model","network_connection_type","OS","architecture","battery","memory","accelerometer","root","emulator","volume"]
+    "device_state": ["carrier","screen","language","model","network_connection_type","OS","architecture","battery","memory","accelerometer","root","emulator","volume","bluetooth"]
+
 }
