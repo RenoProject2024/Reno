@@ -116,6 +116,13 @@
         "information can measured by sensors on device",
         "motion sensor"
     ],
+        "security_credentials": [
+        "security feature",
+        "security features",
+        "PIN pattern",
+        "fingerprint",
+        "face"
+    ],
     "w/o_runtime_permission": [
         "information on device",
         "data on device",
