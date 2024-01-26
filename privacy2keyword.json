@@ -2,25 +2,32 @@
     "storage": [
         "storage",
         "photo",
+        "photos",
         "image",
+        "images",
         "filesystem",
         "read and write",
         "device memory",
         "gallery",
         "file",
+        "files",
         "media",
+        "medias",
         "devices library",
         "local storage",
         "local media",
         "memory authorization",
         "picture",
+        "pictures",
         "external storage",
         "storage space",
         "album",
+        "screenshot",
         "screenshots",
         "camera roll",
-        "photographs and videos",
-        "manage all your files",
+        "photographs",
+        "photograph",
+        "all files",
         "store",
         "All Files Access"
     ],
@@ -33,104 +40,100 @@
         "GPS position",
         "position",
         "whereabouts",
-        "mobile phone address",
         "region",
         "GPS",
         "GPS tracking",
         "positioning",
         "geolocation",
+        "geospatial",
         "current location",
-        "geographic regions",
-        "country locale",
         "precise location",
         "precise device location",
-        "approximate location",
+        "approximate location"
+    ],
+    "general_location": [
+        "geographic regions",
+        "country locale",
         "countrycode",
         "timeZone",
         "country",
         "timezone_ietf",
         "time_zone",
         "timeZoneOffset",
-        "ct"
+        "ct",
+        "city"
     ],
     "camera": [
         "camera",
-        "users selfies",
-        "photo selfie",
+        "video",
+        "videos",
+        "selfies",
+        "selfie",
         "camera permission"
     ],
     "microphone" : [
-        "recording",
+        "record",
         "microphone",
-        "recording"
+        "recording",
+        "audio",
+        "audios"
     ],
     "telephone_listing": [
         "contacts",
+        "contact",
         "address book",
         "telephone contact"
     ],
     "message": [
-        "SMS permissions",
-        "SMS messages"
+        "SMS permission",
+        "SMS messages",
+        "message"
     ],
     "call_records": [
         "call records",
+        "call record",
         "call history",
         "call record information",
+        "call record data",
         "phone call logs",
+        "phone call log",
         "call data records",
+        "call data record",
         "call detail records",
-        "call record",
+        "call detail record",
         "call_record",
-        "callrecord"
+        "callrecord",
+        "phone calls",
+        "phone call"
     ],
     "bluetooth": [
         "Bluetooth",
         "Bluetooth signal strength"
     ],
-    "sensor": [
+    "body_sensor": [
         "body sensor data",
-        "information that can be measured by sensors on the device",
-        "motion sensor",
-        "fitness exercise permissions",
-        "biometric Information",
-        "biometric identifiers",
-        "Physical activity Permission"
+        "body sensor information",
+        "information can measured by sensors on device",
+        "motion sensor"
     ],
-    "heart_rate": [
-        "heart rate",
-        "heart rate information",
-        "heart rate data",
-        "heart_rate",
-        "heartrate"
-    ],
-    "exercise_data": [
-        "daily activity level",
-        "calorie count"
-    ],
-    "sleep_data": [
-        "sleep mode"
-    ],
-    "security_credentials": [
-        "security feature",
-        "PIN pattern",
-        "fingerprint"
-    ],
-    "device_information": [
-        "information on the device",
+    "w/o_runtime_permission": [
+        "information on device",
+        "data on device",
         "device data",
         "device info",
         "device information"
     ],
     "device_identifier": [
+        "device identification",
         "technical identifiers",
         "identifiers",
         "devices and mobile identifiers",
-        "characteristics of the device",
+        "characteristics of device",
         "device characteristics",
         "recognition characteristics",
         "technical identifiers",
         "unique ID",
+        "Device-specific",
         "unique identifier",
         "unique identifiers",
         "mobile identifier",
@@ -152,6 +155,7 @@
         "devices id number",
         "device identification numbers",
         "device identification number",
+        "device analytics identification",
         "device id numbers",
         "android device id",
         "unique serial number",
@@ -165,7 +169,9 @@
         "serial number",
         "unique identification ID",
         "device_id",
-        "deviceid2"
+        "deviceid2",
+        "phone features",
+        "phone status"
     ],
     "app_id": [
         "external_user_id",
@@ -187,11 +193,13 @@
         "installationId",
         "clientSessionId",
         "uuids",
+        "uuid",
         "yandex_adv_id"
     ],
     "mobile_ad_identifier": [
         "mobile ad identifier",
         "android advertisement identifier",
+        "identifier for advertising",
         "ad identifier",
         "android ad id",
         "ad id",
@@ -200,8 +208,8 @@
         "advertising identifier",
         "advertisement identifier",
         "google ads id",
-        "ad-id",
-        "android advertising id",
+        "ad-id",        
+        "advertising id",
         "android's advertising id",
         "android advertising identifier",
         "device advertising id",
@@ -248,10 +256,10 @@
         "mac id",
         "mac addresses",
         "hardware address",
+        "hardware addresses",
         "mac-address",
         "mac address hash",
         "device mac address",
-        "mac_address",
         "macaddress"
     ],
     "imei": [
@@ -260,6 +268,7 @@
         "imei hash",
         "imei code",
         "imei numbers",
+        "imei codes",
         "mobile imei",
         "imei-number",
         "user imei number",
@@ -291,6 +300,7 @@
         "subscriber identifier",
         "imsi information",
         "imsi number",
+        "imsi numbers",
         "sim identifier",
         "subscriber id",
         "subscriber information",
@@ -301,30 +311,61 @@
     ],
     "app_activity":[
         "app activity",
+        "in-app activity",
+        "app activities",
+        "in-app activities",
         "crash data",
+        "crash information",
         "app usage data",
+        "app usage information",
+        "application activity",
         "application activities",
         "collapse data",
-        "user behavior",
+        "collapse information",
+        "behavior",
+        "behaviour",
+        "behavioral data",
+        "behavioural data",
+        "user statistics",
         "usage data",
-        "data observed during the course of the users interaction with that ad",
+        "usage information",
+        "data observed during course of users interaction",
         "system crashes",
         "usage of",
-        "data about how the app is used",
+        "usage behavior",
+        "usage behaviour",
+        "website usage",
+        "data about how app used",
+        "information about how app used",
         "crash logs",
+        "crash log",
         "pressure point measurement",
-        "certain activities in our app",
-        "how you interact with our online advertising",
-        "use of applications",
+        "activities in app",
+        "activity in app",
+        "how you interact with online advertising",
+        "use of",
+        "activities",
         "Crash report",
-        "analytics data about the usage",
+        "Crash reports",
+        "troubleshooting",
+        "analytics data about usage",
+        "analytics information about usage",
         "diagnosis",
-        "click or views data",
-        "diagnostic data",
-        "information about your purchases and interactions in the app",
+        "diagnostics",
+        "click",
+        "views data",
+        "diagnostic",
+        "analytics",
         "Services usage statistics",
         "clickstream information",
-        "appActivity"
+        "user activity",
+        "interaction",
+        "use services",
+        "how you use",
+        "pages visited",
+        "interactions",
+        "interact",
+        "operation logs"
     ],
     "browsing_history": [
         "browsing data",
@@ -337,23 +378,29 @@
         "browsing records",
         "browsing content",
         "internet history",
-        "information about how you use the website",
-        "visits to websites"
+        "information about how you use website",
+        "visits to websites",
+        "searching history",
+        "pages you visit",
+        "websites you visit",
+        "browsing on application"
     ],
     "user_input": [
-        "account information",
         "registration data",
+        "registration information",
         "input of data",
         "population statistics",
         "user statistics",
-        "account profiles",
-        "data associated with your account",
-        "associated with a customer's account",
+        "profile",
+        "profiles",
+        "data associated with account",
+        "customer's account",
         "profile information",
         "User Provided data",
         "registration data",
         "input of data",
-        "the information you submit"
+        "information you submit",
+        "information you enter"
     ],
     "demographic_information": [
         "demographic information",
@@ -363,8 +410,7 @@
         "user demographics",
         "visitor demographics",
         "customer demographics",
-        "household demographic data",
-        "personal demographic data",
+        "demographic data",
         "census records",
         "demographics"
     ],
@@ -391,10 +437,45 @@
     "email_address": [
         "email",
         "email address",
-        "email id"
+        "email id",
+        "e-mail",
+        "e-mail address"
     ],
     "health_status": [
-        "health data"
+        "health data",
+        "health information",
+        "medical",
+        "biometric information",
+        "biometric data",
+        "biometric identifiers",
+        "physiological",
+        "orthodontic",
+        "dental",
+        "body measurements",
+        "body fat",
+        "waist",
+        "hip",
+        "clinical record",
+        "relating to health"
+    ],
+    "heart_rate": [
+        "heart rate",
+        "heart rate information",
+        "heart rate data",
+        "heart_rate",
+        "heartrate"
+    ],
+    "exercise_data": [
+        "daily activity level",
+        "calorie count",
+        "training data",
+        "physical activity"
+    ],
+    "sleep_data": [
+        "sleep"
+    ],
+    "blood_pressure": [
+        "blood pressure"
     ],
     "sexual_orientation": [
         "sexual orientation",
@@ -432,7 +513,7 @@
         "personal phone numbers",
         "customer mobile number",
         "phone details",
-        "contact phone numbers",
+        "contact information",
         "personal phone number",
         "phone number account name",
         "number information",
@@ -450,7 +531,9 @@
     ],
     "user_preference": [
         "interest data",
+        "interest information",
         "interests",
+        "favourites",
         "general interests",
         "hobbies",
         "demographics interests"
@@ -467,16 +550,13 @@
         "male",
         "sex"
     ],
-    "economic_situation":[
-        "economic and financial characteristics"
-    ],
     "payment_infomation": [
         "billing information",
-        "payment info",
+        "payment",
         "credit card number",
         "full payment card information",
         "card details",
-        "the expiration date",
+        "expiration date",
         "payment related data",
         "payment card numbers",
         "security code",
@@ -486,14 +566,16 @@
         "bank account number",
         "payment card expiration date",
         "verification number",
-        "date that your card expire",
+        "date card expire",
         "security code",
         "credit card number",
         "expiration date",
-        "credit card"
+        "credit card",
+        "financial record"
     ],
     "consuming_history": [
-        "purchase of"
+        "purchase of",
+        "customer number"
     ],
     "date_of_birth": [
         "birthday",
@@ -545,15 +627,22 @@
     "family_members": [
         "child",
         "children",
-        "child's personal information",
-        "information from your child",
+        "child personal information",
+        "children personal information",
+        "information from child",
+        "information from children",
         "parent or guardians"
     ],
+    "user_credentials": [
+        "login data"
+    ],
     "account": [
+        "user identifier",
         "customer identifier",
         "username",
         "customer ID",
-        "random ID"
+        "random ID",
+        "account"
     ],
     "name": [
         "firstname",
@@ -568,12 +657,14 @@
         "full_name",
         "fullname",
         "surname",
+        "nickname",
         "nicknames"
     ],
     "password": [
         "password",
         "password information",
-        "account pin",
+        "pin",
+        "pin code",
         "pin number",
         "password details",
         "pwd",
@@ -584,52 +675,68 @@
         "income"
     ],
     "education": [
-        "education data"
+        "education data",
+        "education information",
+        "school",
+        "university"
     ],
     "online_activity": [
         "likes",
         "comments",
+        "comment",
         "user-generated content",
         "online identification code",
         "posts and interactions",
         "what you voluntarily post",
         "feedback",
+        "feedbacks",
         "data you created using",
         "data you upload",
         "data you have uploaded",
-        "blog entry"
+        "blog entry",
+        "virtual consultations"
     ],
-    "personal_information": [
+    "privacy_data": [
         "data",
         "information",
         "pii",
         "pi",
-        "info from your device",
-        "information on your device",
-        "standard information sent by your device",
-        "information from your various devices",
-        "information on user's devices",
+        "info from device",
+        "information on device",
+        "data on device",
+        "standard information sent by device",
+        "information from various devices",
+        "data from various devices",
+        "information on users devices",
+        "data on users devices",
         "personal data",
         "information about users",
         "personal info",
         "individual data",
+        "individual information",
         "personal information",
         "private information",
+        "private data",
         "Personal Data",
         "data you send",
         "data you provide",
         "personally identifying information",
         "Personally Identifiable Information",
-        "User Data"
+        "User Data",
+        "user information"
     ],
-    "permission": [
-        "permission",
-        "access",
-        "following access",
-        "authorization"
+    "w/_runtime_permission": [
+        "permission"
     ],
     "national_identification_number": [
-        "social security number"
+        "social security number",
+        "passport",
+        "vehicle identification numbers",
+        "vehicle identification number",
+        "VIN",
+        "health insurance card number",
+        "identification through device",
+        "tax code"
     ],
     "carrier": [
         "carrier_name",
@@ -680,11 +787,13 @@
         "network_type",
         "connectionType",
         "networkAccess",
-        "net"
+        "net",
+        "cellular",
+        "wifi",
+        "wi-fi"
     ],
     "OS": [
         "os_name", 
-        "platform",
         "os_version",
         "X-osv",
         "plat",
@@ -693,7 +802,8 @@
         "osIdentifier",
         "deviceos",
         "deviceosversion",
-        "app_platform"
+        "app_platform",
+        "operating system"
     ],
     "architecture": [
         "architecture",
@@ -729,11 +839,24 @@
     ],
     "emulator": [
         "is_emu",
-        "emulator"
+        "emulator",
+        "emulators"
     ],
     "volume": [
         "deviceVolume",
         "volume",
         "android_app_volume"
+    ],
+    "cookie" : [
+        "cookie",
+        "cookies"
+    ],
+    "app_list" : [
+        "third party app list",
+        "third-party apps",
+        "third-party app",
+        "third parties apps",
+        "third parties app",
+        "from other companies apps"
     ]
 }
